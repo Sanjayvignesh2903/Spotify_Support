@@ -1,5 +1,6 @@
 # Spotify_Support
 AI-powered customer support triage dashboard for the Hiver SDE Intern assessment.
+
 **1. Executive Summary**
 This report details the design, engineering, and evaluation of an AI-powered customer support triage system for Spotify's Twitter channel (@SpotifyCares). The objective of this system is to reduce human agent workload by automatically resolving tier-1 troubleshooting queries while securely escalating sensitive account and billing issues to human operators.
 
