@@ -1,6 +1,3 @@
-# Spotify_Support
-AI-powered customer support triage dashboard for the Hiver SDE Intern assessment.
-
 # 🎧 Spotify AI Support Operations Hub
 
 An AI-powered customer support triage dashboard built for the Hiver SDE Intern assessment.
@@ -22,14 +19,12 @@ This repository contains a full-stack pipeline featuring a zero-shot LLM intent 
    ```bash
    pip install scikit-learn pandas groq streamlit
 
-Markdown
-3. The Groq API key is temporarily hardcoded in the script for seamless evaluation by the review team.
+The Groq API key is temporarily hardcoded in the script for seamless evaluation by the review team.
 
-## 💻 How to Run
-
+💻 How to Run
 To launch the interactive triage UI, run the following command in your terminal:
 
-```bash
+Bash
 streamlit run app.py
 Once launched, use the Quick Ticket Scenarios buttons in the dashboard to test auto-resolution and the strict security escalation protocols.
 
@@ -45,4 +40,4 @@ Routing (Action) Accuracy: 79.0%
 Please refer to the attached Spotify_Agent_Report.pdf for the complete system architecture, failure analysis, and engineering decision log.
 
 
-Once the full text is in there and committed, your GitHub repository is complete. You
+Commit those changes, and your repository will be perfectly formatted and ready to submit.
