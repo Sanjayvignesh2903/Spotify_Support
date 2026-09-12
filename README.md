@@ -17,19 +17,18 @@ This repository contains a full-stack pipeline featuring a zero-shot LLM intent 
 1. Clone this repository to your local machine.
 2. Install the required dependencies:
    ```bash
-   streamlit run app.py
    pip install scikit-learn pandas groq streamlit
+   ```
 
-3. The Groq API key is temporarily hardcoded in the script for seamless evaluation by the review team.
+1. The Groq API key is temporarily hardcoded in the script for seamless evaluation by the review team.
 
 
 ## **💻 How to Run**
 
 To launch the interactive triage UI, run the following command in your terminal:
-
-    ```bash
-    streamlit run app.py
-
+   ```bash
+   streamlit run app.py
+```
 Once launched, use the Quick Ticket Scenarios buttons in the dashboard to test auto-resolution and the strict security escalation protocols.
 
 **📊 Evaluation Summary**
@@ -41,3 +40,4 @@ Keyword Baseline: 56.0% Accuracy
 Zero-Shot LLM Agent: 64.0% Accuracy (0.66 Macro F1)
 
 Routing (Action) Accuracy: 79.0%
+
