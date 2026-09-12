@@ -21,8 +21,3 @@ This repository contains a full-stack pipeline featuring a zero-shot LLM intent 
 2. Install the required dependencies:
    ```bash
    pip install scikit-learn pandas groq streamlit
-
-Escalate Path (Hardcoded Fallback): If the routing engine detects a sensitive issue, the generation phase is bypassed. The system outputs a strict, hardcoded template directing the user to a secure DM or the Spotify Smarthelp portal.
-
-2.4. LLM-as-a-Judge Evaluation
-An integrated evaluation endpoint allows operators to grade the drafted response on a 1-to-5 scale based on brand tone, helpfulness, and safety.
