@@ -23,7 +23,7 @@ This repository contains a full-stack pipeline featuring a zero-shot LLM intent 
 3. The Groq API key is temporarily hardcoded in the script for seamless evaluation by the review team.
 
 
-## 💻 How to Run
+## **💻 How to Run**
 
 To launch the interactive triage UI, run the following command in your terminal:
 
@@ -32,7 +32,8 @@ To launch the interactive triage UI, run the following command in your terminal:
 
 Once launched, use the Quick Ticket Scenarios buttons in the dashboard to test auto-resolution and the strict security escalation protocols.
 
-📊 Evaluation Summary
+**📊 Evaluation Summary**
+
 Trivial Baseline: 41.0% Accuracy
 
 Keyword Baseline: 56.0% Accuracy
