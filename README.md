@@ -18,26 +18,3 @@ This repository contains a full-stack pipeline featuring a zero-shot LLM intent 
 2. Install the required dependencies:
    ```bash
    pip install scikit-learn pandas groq streamlit
-
-The Groq API key is temporarily hardcoded in the script for seamless evaluation by the review team.
-
-💻 How to Run
-To launch the interactive triage UI, run the following command in your terminal:
-
-Bash
-streamlit run app.py
-Once launched, use the Quick Ticket Scenarios buttons in the dashboard to test auto-resolution and the strict security escalation protocols.
-
-📊 Evaluation Summary
-Trivial Baseline: 41.0% Accuracy
-
-Keyword Baseline: 56.0% Accuracy
-
-Zero-Shot LLM Agent: 64.0% Accuracy (0.66 Macro F1)
-
-Routing (Action) Accuracy: 79.0%
-
-Please refer to the attached Spotify_Agent_Report.pdf for the complete system architecture, failure analysis, and engineering decision log.
-
-
-Commit those changes, and your repository will be perfectly formatted and ready to submit.
